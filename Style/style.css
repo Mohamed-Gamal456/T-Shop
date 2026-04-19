@@ -1,0 +1,136 @@
+.hero{
+    background: linear-gradient(135deg, #0d6efd 0%, #794bce 100%);
+}
+
+.head-products{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.head-products h2{
+    font-size: 25px;
+    font-weight: 400;
+}
+
+.head-products a{
+    font-size: 18px;
+    font-weight: 400;
+    text-decoration: none;
+}
+.product-card{
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0 6px 18px rgba(20, 20, 20, 0.08);
+    transition: transform .28s ease, box-shadow .28s ease;
+    margin-bottom: 15px;
+}
+.product-card:hover{
+    transform: translateY(-4px);
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.15);
+}
+
+.card-img{
+    height: 220px;
+    object-fit: cover;
+    transition: all 2.5s ease;
+}
+.card-img:hover{
+    transform: scale(1.05);
+
+}
+
+
+.product-card .contant{
+    margin: 15px;
+}
+
+.product-card .contant button{
+    width: 100%;
+    border-radius: 5px;
+}
+
+.contant{
+    margin: 15px;
+}
+
+.contant button{
+    width: 100%;
+    border-radius: 5px;
+    font-weight: 500;
+}
+
+.btn-update{
+    border: 2px #0d6efd solid;
+    color: #0d6efd;   
+}
+.btn-update:hover{
+    background-color: #0d6efd;   
+    color: white;
+}
+
+.btn-updateW{
+    border: 2px crimson solid;
+    color:crimson;   
+}
+
+.btn-updateW:hover{
+    background-color: crimson;   
+    color: white;
+}
+
+form label{
+    font-size: 18px;
+    font-weight: 500;
+    border: 1px #9c9c9c;
+}
+form input{
+    display: block;
+    width: 100%;
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #212529;
+    background-color: #ffffff;
+    border: 1px solid #bfc1c3;
+    border-radius: 5px;
+}
+
+/*=================footer=================*/
+footer{
+    background-color: #000;
+    color: white;
+    padding: 15px 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+footer h3{
+    font-size: 18px;
+    font-weight: 500;
+}
+
+footer a{
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 500;
+    border-radius: 20px;
+}
+
+footer a:hover{
+    color: white !important;
+}
+footer div{
+    display: flex;
+    gap: 12px;
+}
+
+@media (max-width: 768px) {
+    footer{
+        padding: 15px 20px;
+    }
+}
